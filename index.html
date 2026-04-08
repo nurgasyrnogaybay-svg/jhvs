@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 0.6875rem;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="bg-white flex flex-col justify-start items-center min-h-screen">
+    <div
+      class="header w-full h-[40px] flex pl-[10px] pr-[10px] justify-between items-center"
+    >
+      <div class="flex gap-3 justify-center items-center">
+        <h1 class="text-3xl font-bold">snap</h1>
+        <p>Features</p>
+        <p>company</p>
+        <p>Careers</p>
+        <p>About</p>
+      </div>
+      <div class="flex gap-3 items-center">
+        <p>login</p>
+        <p
+          class="border rounded-lg w-[90px] h-[30px] flex justify-center items-center"
+        >
+          Register
+        </p>
+      </div>
+    </div>
+    <div
+      class="cont bg-white rounded-sm p-5 flex flex-col-reverse md:flex md:flex-row"
+    >
+      <div class="left w-[400px] h-[500px] flex flex-col gap-7 pt-10 pl-5">
+        <h1 class="text-5xl font-bold">
+          Make <br />
+          remote work
+        </h1>
+        <p>
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <p>Email address</p>
+        <div
+          class="bg-black w-[100px] h-[40px] border rounded-lg flex items-center justify-center"
+        >
+          <h1 class="text-white">Learn more</h1>
+        </div>
+        <div class="flex gap-3 mt-25">
+          <img
+            class="w-[80px] h-[30px]"
+            src="images/client-databiz.svg"
+            alt=""
+          />
+          <img
+            class="w-[80px] h-[30px]"
+            src="images/client-audiophile.svg"
+            alt=""
+          />
+          <img class="w-[80px] h-[30px]" src="images/client-meet.svg" alt="" />
+          <img class="w-[80px] h-[30px]" src="images/client-maker.svg" alt="" />
+        </div>
+      </div>
+      <div
+        class="right w-[400px] h-[500px] bg-[url('images/image-hero-mobile.png')] bg-cover bg-center md:bg-[url('images/image-hero-desktop.png')] rounded-xl"
+      ></div>
+    </div>
+  </body>
+</html>
